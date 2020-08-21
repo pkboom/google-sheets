@@ -19,11 +19,6 @@ class GoogleSheets
         $this->service = $service;
     }
 
-    public function getClient()
-    {
-        return $this->service->getClient();
-    }
-
     public function spreadsheetId($spreadsheetId)
     {
         $this->spreadsheetId = $spreadsheetId;
